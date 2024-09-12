@@ -1,5 +1,8 @@
 fn main() {
-    let s1 = String::from("hello");
+    // このコードは動く
+    let mut s = String::from("Hello");
+    s.push_str(", nosuke");
+    println!("{}", s);
 
     let len2 = calculate_length_2(&s1);
     let len = calculate_length(s1);
