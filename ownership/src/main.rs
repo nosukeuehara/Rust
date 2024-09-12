@@ -6,7 +6,7 @@ fn main() {
 
     //'{}'の長さは、{}です
     // println!("The length of '{}' is {}.", s1, len); // 上で定義した変数s1はcalculate_length()の引数になったタイミングでdropされているのでエラーになる。
-    println!("len: {}, len2: {}", len, len2)
+    println!("len: {}, len2222: {}", len, len2)
 }
 
 fn calculate_length(s: String) -> usize {
